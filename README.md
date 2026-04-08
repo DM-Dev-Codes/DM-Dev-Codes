@@ -1,20 +1,25 @@
 # Hi, I’m David 
 
-I’m a computer science graduate focused on machine learning, deep learning, and AI. I’m always looking to expand my tech stack and dive deeper into Python.
+I build backend systems in Python — mostly around AI, messaging infrastructure, and data pipelines.
+Currently finishing an M.Sc. in Intelligent Systems(Data Science).
 
 ## Projects
 
-**WhatsApp Invoice Processor**  
-Users snap a photo of an invoice via WhatsApp; GPT extracts the data, stores it in AWS RDS, and supports natural-language queries. Built with Python, FastAPI, Docker, Kafka, Redis, Twilio, OpenAI, and AWS.
+**WhatsApp Invoice Processor**
+Photo goes in via WhatsApp, structured data comes out. GPT handles extraction, FastAPI serves it,
+Kafka moves it, AWS stores it. Supports natural-language queries on top of the stored data.
+Stack: Python, FastAPI, Docker, Kafka, Redis, Twilio, OpenAI, AWS RDS.
 
-**Mass Messaging Automation**  
-A Python tool that coordinates messaging across WhatsApp, Telegram, and X using async queues and MySQL session tracking.
+**Mass Messaging Automation**
+Coordinates outbound messaging across WhatsApp, Telegram, and X from a single async pipeline.
+MySQL tracks sessions, queues handle the load.
+Stack: Python, async queues, MySQL.
 
-## Tech & Tools
+## Stack
 
-Python · FastAPI · Docker · Kafka · Redis · AWS · PostgreSQL · OpenAI · Twilio
+Python · FastAPI · Pydantic · Docker · Kafka · Redis · AWS · PostgreSQL · MySQL · OpenAI API · Twilio · Linux · Bash
 
 ## Education
 
-- M.Sc. in Intelligent Systems (in progress), Afeka College  
-- B.Sc. in Computer Science, College of Law and Business
+M.Sc. Intelligent Systems — Afeka College *(in progress)*
+B.Sc. Computer Science — College of Law and Business
